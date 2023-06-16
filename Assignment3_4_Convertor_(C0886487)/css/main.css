@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+  }
+  
+  .container {
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: inline-block;
+    width: 30px;
+  }
+  
+  input[type="number"] {
+    width: 80px;
+  }
+  
+  #validation {
+    color: red;
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    border: 0.5px;
+
+  }
+  

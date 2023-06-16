@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Currency Convertor</title>
+</head>
+<body>
+    <h1>CAD to USD Convertor </h1>
+    <div class="container">
+        <h2>CAD to USD</h2>
+        <label for="cad_input">CAD</label>
+        <input id="cad_input" type="number" min="0" required>
+        <label for="usd_input">USD:</label>
+        <input id="usd_input" type="number" min="0" required>
+        <div id="validation"></div>
+        <button onclick="convert_currency()">Exchange Rate</button>
+      </div>
+      <script src="script/script.js"></script>
+</body>
+</html>
